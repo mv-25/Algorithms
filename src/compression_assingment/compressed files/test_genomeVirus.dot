@@ -1,0 +1,11 @@
+## Command to generate pdf:  dot -Tpdf test.dot -o test.pdf
+digraph g {
+ "9\n6252" -> "7\n2923" [color=red, label=0]
+ "7\n2923" -> "6\n1448" [color=red, label=0]
+ "6\n1448" -> "5\n1\n /n" [color=red, label=0]
+ "6\n1448" -> "1\n1447\n A" [color=blue, label=1]
+ "7\n2923" -> "3\n1475\n T" [color=blue, label=1]
+ "9\n6252" -> "8\n3329" [color=blue, label=1]
+ "8\n3329" -> "4\n1605\n G" [color=red, label=0]
+ "8\n3329" -> "2\n1724\n C" [color=blue, label=1]
+}
